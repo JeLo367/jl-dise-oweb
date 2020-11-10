@@ -1,0 +1,270 @@
+*{
+   box-sizing: border-box;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #347B9F;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #99CCCC 50%, #99FFFF 50%);
+    font-family: 'Lucida Sans', sans-serif;
+    flex-wrap: wrap;
+
+}
+.ancho{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 7px;
+}
+.JL{
+    width: 75px;
+}
+header nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 25px;
+
+}
+header nav ul li{
+    display: inline;
+}
+header nav ul li a{
+    color: #0A0A0A;
+    font-size: 17px;
+    text-decoration: none;
+   text-transform: uppercase;
+   padding-left: 15px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   
+}
+nav ul li a:hover{
+    color: #37A6E8;
+}
+.menu{
+    display: none;
+}
+.h1{
+    font-size: 25px;
+    float: left;
+   font-family: cursive;
+  padding-left: 40%;
+   margin-top: 3%;
+   padding-top: 0%;
+   
+}
+.h2{
+    font-size: 20px;
+    font-family: fantasy;
+    padding-left: 50px;
+    position: absolute;
+    padding-left: 25%;
+    top: 70%;
+    text-align: center;
+}
+.Nosotros{
+    padding-left: 10%;
+    margin-top: 50px;
+}
+.texto{
+    font-family: sans-serif;
+    padding-left: 15%;
+    text-align: justify;
+    padding-right: 15%;
+}
+.NuestraMision{
+    padding-left: 10%;
+}
+.Mision{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+}
+.Footer{
+    background-color: #347B9F;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+   
+    
+}
+.Redes{
+    padding-left: 80%;
+    padding-top: 180px;
+    z-index: initial;
+    
+}
+.Web{
+   width: 1200px;
+   height: 800px;
+   padding: 30px 200px;
+   font-size: 16px;
+   line-height: 1.5;
+   box-shadow: 1px 5px 25px 
+   rgba (0,0,0,0.45);
+   border-radius: 5px;
+   text-align: left;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   flex-wrap: wrap;
+   min-width: 300px;
+
+
+}
+.Web img .Web{
+    width: 330px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 70px;
+    margin-bottom: 15px;
+}
+.Sub-titulo{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.Web img .Diseño{
+    margin-top: 10px;
+    border-radius: 20px;
+    
+
+}
+.Diseño{
+    width: 10px;
+    height: 600px;
+    padding: 0px  200px;
+    font-size: 17px;
+    line-height: 1.5;
+    border-radius: 5px;
+    text-align: left;
+    padding-top: 5px;
+    margin-top: 0%;
+    
+}
+.Diseño img{
+    width: 330px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 15px;
+
+}
+.Sub-Grafico{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10 px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.Sub-contacto{
+ text-align: center;
+ font-size: 25px;
+ margin-bottom: 20px;
+}
+input,textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+}
+textarea {
+    min-height: 100px;
+    max-height: 250px;
+    max-width: 100%;
+}
+#Boton {
+    background: #347B9F;
+    color: blue;
+    padding: 10px;
+}
+#Boton:hover{
+    color: deepskyblue;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    .Contenedor{
+        width: 100%;
+        padding: 0px;
+        
+    }
+    .Web{
+        width: 100%;
+        padding: 0px;
+        height: 0px;
+    }
+    .Sub-titulo{
+        padding: 0px;
+        height: 0px;
+    }
+    .Sub-Grafico{
+        padding: 0px;
+        height: 0px;
+    }
+    .h1, .h2{
+        padding: 0px;
+        height: 0px;
+        bottom: 0px;
+    }
+
+}
+@media screen and (max-width:700px) {
+    header nav{
+        width: 80%;
+        height: 100%;
+        margin: 0;
+        position: fixed;
+    }
+    header nav ul li {
+        display: block;
+        float: none;
+        border-bottom: lightseagreen;
+    }
+    .menu{
+        display: block;
+        width: 100%;
+
+    }
+    .menu .bt-menu {
+        display: block;
+        padding: 20px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+
+    }
+    .menu span {
+        float: right;
+        font-size: 30px;
+    }
+
+
+
+
+}
